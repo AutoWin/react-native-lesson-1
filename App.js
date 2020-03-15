@@ -1,43 +1,27 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import HomeScreen from "./src/screens/HomeScreen";
+import ComponentScreen from './src/screens/ComponentScreen';
+import ListScreen from './src/screens/ListScreen';
+import ImageScreen from './src/screens/ImageScreen';
+import TextScreen from './src/screens/TextScreen';
+import BoxScreen from './src/screens/BoxScreen';
 
-import React from "react";
-import { StyleSheet, View, StatusBar } from "react-native";
-import { createStore, applyMiddleware } from "redux";
-import { Provider } from "react-redux";
-import { createStackNavigator } from "react-navigation";
-import thunk from "redux-thunk";
-import logger from "redux-logger";
-
-import reducer from "./src/reducers";
-import { DARK_PRIMARY } from "./src/colors";
-import { MainScreen, AddContactScreen } from "./src/components";
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1
+const navigator = createStackNavigator(
+  {
+    Home: HomeScreen,
+    Components: ComponentScreen,
+    List: ListScreen,
+    Image: ImageScreen,
+    Text: TextScreen,
+    Boxs: BoxScreen
+  },
+  {
+    initialRouteName: "Home",
+    defaultNavigationOptions: {
+      title: "App"
+    }
   }
-});
-const store = createStore(
-  reducer,
-  applyMiddleware(thunk),
-  applyMiddleware(logger)
-);
-const Navigator = createStackNavigator({
-  Main: MainScreen,
-  AddContact: AddContactScreen
-});
-
-const App = () => (
-  <Provider store={store}>
-    <View style={styles.container}>
-      <StatusBar backgroundColor={DARK_PRIMARY} />
-      <Navigator />
-    </View>
-  </Provider>
 );
 
-export default App;
+export default createAppContainer(navigator);
