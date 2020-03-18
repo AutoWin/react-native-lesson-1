@@ -1,0 +1,182 @@
+[
+    {
+        "ID": "1",
+        "project": "SO001-HCS Việt Nam",
+        "employee": "Nguyễn Văn A",
+        "role": "vệ sinh văn phòng",
+        "start_date": "03/11  10:00",
+        "end_date": "03/11  12:00",
+        "allocated_hours": "16:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "2",
+        "project": "SO001-HCS Việt Nam",
+        "employee": "Nguyễn Văn B",
+        "role": "chăm sóc cây",
+        "start_date": "03/11  14:00",
+        "end_date": "03/11  16:00",
+        "allocated_hours": "32:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "3",
+        "project": "SO002-FPT Software",
+        "employee": "Nguyễn Văn A",
+        "role": "vệ sinh văn phòng",
+        "start_date": "03/11  10:00",
+        "end_date": "03/11  12:00",
+        "allocated_hours": "16:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "4",
+        "project": "SO002-FPT Software",
+        "employee": "Nguyễn Văn B",
+        "role": "chăm sóc cây",
+        "start_date": "03/11  14:00",
+        "end_date": "03/11  16:00",
+        "allocated_hours": "32:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "5",
+        "project": "SO003-ICT Việt Nam",
+        "employee": "Nguyễn Văn A",
+        "role": "vệ sinh văn phòng",
+        "start_date": "03/11  10:00",
+        "end_date": "03/11  12:00",
+        "allocated_hours": "16:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "6",
+        "project": "SO003-ICT Việt Nam",
+        "employee": "Nguyễn Văn B",
+        "role": "chăm sóc cây",
+        "start_date": "03/11  14:00",
+        "end_date": "03/11  16:00",
+        "allocated_hours": "32:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "7",
+        "project": "SO004-Vietcom Bank",
+        "employee": "Nguyễn Văn A",
+        "role": "vệ sinh văn phòng",
+        "start_date": "03/11  10:00",
+        "end_date": "03/11  12:00",
+        "allocated_hours": "16:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "8",
+        "project": "SO004-Vietcom Bank",
+        "employee": "Nguyễn Văn B",
+        "role": "chăm sóc cây",
+        "start_date": "03/11  14:00",
+        "end_date": "03/11  16:00",
+        "allocated_hours": "32:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "9",
+        "project": "SO005-Techcom Bank",
+        "employee": "Nguyễn Văn A",
+        "role": "vệ sinh văn phòng",
+        "start_date": "03/11  10:00",
+        "end_date": "03/11  12:00",
+        "allocated_hours": "16:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "10",
+        "project": "SO005-Techcom Bank",
+        "employee": "Nguyễn Văn B",
+        "role": "chăm sóc cây",
+        "start_date": "03/11  14:00",
+        "end_date": "03/11  16:00",
+        "allocated_hours": "32:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "11",
+        "project": "SO006-Google Global",
+        "employee": "Nguyễn Văn A",
+        "role": "vệ sinh văn phòng",
+        "start_date": "03/11  10:00",
+        "end_date": "03/11  12:00",
+        "allocated_hours": "16:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "12",
+        "project": "SO006-Google Global",
+        "employee": "Nguyễn Văn B",
+        "role": "chăm sóc cây",
+        "start_date": "03/11  14:00",
+        "end_date": "03/11  16:00",
+        "allocated_hours": "32:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "13",
+        "project": "SO007-Facebook Singapore",
+        "employee": "Nguyễn Văn A",
+        "role": "vệ sinh văn phòng",
+        "start_date": "03/11  10:00",
+        "end_date": "03/11  12:00",
+        "allocated_hours": "16:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "14",
+        "project": "SO007-Facebook Singapore",
+        "employee": "Nguyễn Văn B",
+        "role": "chăm sóc cây",
+        "start_date": "03/11  14:00",
+        "end_date": "03/11  16:00",
+        "allocated_hours": "32:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "15",
+        "project": "SO008-Sơn Hà SHE",
+        "employee": "Nguyễn Văn A",
+        "role": "vệ sinh văn phòng",
+        "start_date": "03/11  10:00",
+        "end_date": "03/11  12:00",
+        "allocated_hours": "16:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "16",
+        "project": "SO008-Sơn Hà SHE",
+        "employee": "Nguyễn Văn B",
+        "role": "chăm sóc cây",
+        "start_date": "03/11  14:00",
+        "end_date": "03/11  16:00",
+        "allocated_hours": "32:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "17",
+        "project": "SO009-Sơn Hà SHB",
+        "employee": "Nguyễn Văn A",
+        "role": "vệ sinh văn phòng",
+        "start_date": "03/11  10:00",
+        "end_date": "03/11  12:00",
+        "allocated_hours": "16:00",
+        "allocated_time_percent": "100"
+    },
+    {
+        "ID": "18",
+        "project": "SO009-Sơn Hà SHB",
+        "employee": "Nguyễn Văn B",
+        "role": "chăm sóc cây",
+        "start_date": "03/11  14:00",
+        "end_date": "03/11  16:00",
+        "allocated_hours": "32:00",
+        "allocated_time_percent": "100"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "employee_name": "Administrator",
+        "work_phone": "091.234.567",
+        "work_email": "admin@gmail.com",
+        "department": "Phòng triển khai dịch vụ",
+        "job_position": "Quản lý",
+        "manager": "Administrator"
+    },
+    {
+        "id": "2",
+        "employee_name": "Nguyễn Văn A",
+        "work_phone": "98.8888.999",
+        "work_email": "nguyenvana@gmail.com",
+        "department": "Phòng triển khai dịch vụ",
+        "job_position": "Công nhân",
+        "manager": "Administrator"
+    },
+    {
+        "id": "3",
+        "employee_name": "Nguyễn Văn B",
+        "work_phone": "090.555.666",
+        "work_email": "nguyenvanb@gmail.com",
+        "department": "Phòng triển khai dịch vụ",
+        "job_position": "Công nhân",
+        "manager": "Administrator"
+    }
+]
