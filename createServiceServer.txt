@@ -1,0 +1,26 @@
+1. put code to server
+/home/soc/api.py
+
+2. install virtualenv
+
+3. create one virtualenv named "soc_api"
+virtualenv -p /usr/bin/python /home/soc/venv/soc_api
+
+4. Create a service in /etc/systemd/system/soc_api.service
+[Unit]
+Description=API TNCA
+
+[Service]
+Type=simple
+User=hcsv
+ExecStart=/home/api/venv/bin/python2.7 /home/api/main.py
+
+[Install]
+WantedBy=default.target
+
+5. 
+sudo systemctl daemon-reload
+sudo service soc_api start
+
+Dependencies: flask, flask_restplus, xmlrpclib, 
+
